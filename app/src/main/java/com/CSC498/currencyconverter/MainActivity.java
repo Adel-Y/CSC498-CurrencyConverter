@@ -27,10 +27,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void convertLBP(View v){
         double x =  Integer.parseInt(input.getText().toString());
-        output.setText("The converted amount in LBP is: "+ x*rate);
+        output.setText("The converted amount in LBP is: "+ (x*rate));
     }
     public void convert$(View v){
         double x =  Integer.parseInt(input.getText().toString());
-        output.setText("The converted amount in $ is: "+ x%rate);
+        output.setText("The converted amount in $ is: "+ (x%rate));
     }
 }
